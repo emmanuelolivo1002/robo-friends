@@ -6,11 +6,10 @@ import 'tachyons';
 import './index.css';
 
 import App from './App';
-import CardList from './CardList';
-import {robots} from './robots'
+
 
 
 ReactDOM.render(
-  <CardList robots={robots}/>
+  <App />
   , document.getElementById('root'));
 registerServiceWorker();
